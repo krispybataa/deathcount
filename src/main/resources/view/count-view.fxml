@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.deathcount.CounterController">
+   <children>
+      <Button fx:id="addDeath" layoutX="247.0" layoutY="347.0" mnemonicParsing="false" text="I died" />
+      <Button fx:id="resetDeath" layoutX="65.0" layoutY="347.0" mnemonicParsing="false" text="Reset" />
+      <Label fx:id="deathLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="43.0" prefHeight="207.0" prefWidth="227.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="144.0" layoutY="257.0" prefHeight="57.0" prefWidth="95.0" text="🤡" textFill="RED">
+         <font>
+            <Font size="62.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
